@@ -1,27 +1,38 @@
-# AuditIQ — AI-Powered Fraud Detection
+# 💼 AuditIQ — AI-Powered Fraud Detection
 
-AuditIQ scans accounting data to detect irregular or high-risk transactions using unsupervised machine-learning models.  
-Ideal for students, auditors, or small businesses wanting to understand financial anomalies.
-
----
-
-## 🚀 Features
-- Upload CSV of transactions (Date, Description, Category, Amount)
-- Detect anomalies using Isolation Forest
-- Visualize transactions and flagged outliers
-- Download audit report with “Risk Flag” column
-- Simple Streamlit web dashboard
+🚀 **Live Demo:** [https://auditiq1.streamlit.app/](https://auditiq1.streamlit.app/)  
+📊 **GitHub Repo:** [github.com/kaushikatla-cell/AuditIQ](https://github.com/kaushikatla-cell/AuditIQ)
 
 ---
 
-## 🧰 Tech Stack
-Python · Pandas · scikit-learn · Streamlit · Matplotlib
+## 🧠 Overview
+**AuditIQ** scans accounting data to automatically detect irregular or high-risk transactions using unsupervised machine-learning models.  
+It helps users quickly identify potential fraud or anomalies across their financial data.
+
+Ideal for:
+- Students learning accounting or data analytics  
+- Auditors or finance interns reviewing transactions  
+- Small businesses tracking unusual activity  
 
 ---
 
-## ⚙️ Setup
-```bash
-git clone https://github.com/YOURUSERNAME/AuditIQ.git
-cd AuditIQ
-pip install -r requirements.txt
-streamlit run app.py
+## ⚙️ Features
+✅ Upload CSV data (Date, Description, Category, Amount)  
+✅ Detect anomalies using **Isolation Forest ML model**  
+✅ Interactive data visualizations (Seaborn + Matplotlib)  
+✅ Adjustable anomaly sensitivity  
+✅ Downloadable “Audit Report” with risk flags  
+✅ Streamlit-powered, no installation required  
+
+---
+
+## 🧩 Tech Stack
+- **Python 3.10+**
+- **Streamlit** — frontend dashboard  
+- **Pandas & NumPy** — data handling  
+- **Scikit-learn** — anomaly detection  
+- **Matplotlib / Seaborn** — visualization  
+
+---
+
+## 📂 Project Structure
