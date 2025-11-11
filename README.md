@@ -36,3 +36,39 @@ Ideal for:
 ---
 
 ## 📂 Project Structure
+
+
+---
+
+## 🧪 How It Works
+1. Upload or use the included `sample_data.csv`  
+2. AuditIQ processes the dataset and computes anomaly scores  
+3. Suspicious transactions are flagged visually and listed in a report  
+4. Adjust sensitivity using the sidebar to refine detection results  
+
+---
+
+## 📸 Preview
+| Dashboard Preview |
+|:--:|
+| ![AuditIQ Screenshot](https://i.imgur.com/XN6N3uB.png) |  
+
+*(You can upload your own screenshot to Imgur and replace the link above)*
+
+---
+
+## 🧠 Example Use Case
+**Scenario:**  
+A freelance accountant uploads a client’s expense data.  
+AuditIQ highlights one suspicious “Client Payment - Income - $12,000” transaction — potentially miscoded or fraudulent.  
+
+---
+
+## 🧰 Local Setup
+If you want to run it locally:
+```bash
+git clone https://github.com/kaushikatla-cell/AuditIQ.git
+cd AuditIQ
+pip install -r requirements.txt
+streamlit run app.py
+
